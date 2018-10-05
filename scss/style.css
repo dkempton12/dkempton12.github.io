@@ -18,7 +18,6 @@ br {
   display: block;
   line-height: 35px; }
 
-/* h1 level */
 .main-heading {
   font-size: 3.5em;
   font-family: 'Bree Serif', serif;
@@ -41,26 +40,31 @@ br {
 .tagline {
   font-size: 1.2em;
   font-weight: 300;
-  color: #FFFFFF;
-  line-height: 1.5; }
+  color: #FFFFFF; }
+
+.tagline:nth-of-type(1) {
+  padding-bottom: 15px; }
 
 #header {
   background: linear-gradient(50deg, navy, blue);
   padding: 0 10px; }
+  #header .header-text-area {
+    padding-left: 3em;
+    text-align: left; }
   #header .web-links {
     margin-top: 4em;
     padding-bottom: 3em; }
     #header .web-links li {
       display: inline;
-      margin-right: 10px;
-      margin-left: 10px; }
+      margin-right: 15px;
+      margin-left: 15px; }
     #header .web-links .btn {
-      padding: 10px 15px;
+      padding: 5px;
       border: 1px solid #007FFF;
       border-radius: 3px;
       background: #007FFF;
       color: white;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
       letter-spacing: 1px;
       transition: all 0.5s ease;
@@ -109,5 +113,13 @@ br {
   background: #282828; }
   .page-bottom p {
     color: #FFFFFF; }
+
+@media only screen and (min-width: 768px) {
+  #header .header-text-area {
+    padding-left: 0px;
+    text-align: center; }
+  #header .web-links .btn {
+    padding: 10px 15px;
+    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
