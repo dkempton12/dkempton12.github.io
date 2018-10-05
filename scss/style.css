@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Roboto:300,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  line-height: 1; }
+
+a {
+  text-decoration: none; }
+
+br {
+  display: block;
+  line-height: 35px; }
+
+/* h1 level */
+.main-heading {
+  font-size: 3.5em;
+  font-family: 'Bree Serif', serif;
+  color: #FFFFFF;
+  padding-top: 0.5em;
+  padding-bottom: 1.5rem; }
+
+.main-heading-span {
+  color: #00FA9A; }
+
+.sub-heading {
+  font-size: 2em;
+  color: #007FFF;
+  padding-bottom: 1em; }
+
+.underline {
+  border-bottom: 2px solid #00FA9A; }
+
+/* about p text */
+.tagline {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #FFFFFF;
+  line-height: 1.5; }
+
+#header {
+  background: linear-gradient(50deg, navy, blue);
+  padding: 0 10px; }
+  #header .web-links {
+    margin-top: 4em;
+    padding-bottom: 3em; }
+    #header .web-links li {
+      display: inline;
+      margin-right: 10px;
+      margin-left: 10px; }
+    #header .web-links .btn {
+      padding: 10px 15px;
+      border: 1px solid #007FFF;
+      border-radius: 3px;
+      background: #007FFF;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      transition: all 0.5s ease;
+      cursor: pointer; }
+    #header .web-links .btn:hover {
+      transition: ease 2.2s;
+      background: navy; }
+
+.about-me {
+  max-width: 600px;
+  margin: 2em auto; }
+  .about-me .about-me-text {
+    padding: 0 15px; }
+    .about-me .about-me-text .sub-heading {
+      text-align: left; }
+    .about-me .about-me-text p {
+      font-size: 17px;
+      text-align: left;
+      line-height: 24px;
+      padding-bottom: 12px; }
+  .about-me .about-picture {
+    margin-top: 2em; }
+    .about-me .about-picture .pic {
+      max-width: 400px;
+      border-radius: 3px; }
+
+.rotating-quotes {
+  padding: 4em 0; }
+  .rotating-quotes blockquote {
+    margin: 0 auto;
+    max-width: 250px;
+    font-size: 18px;
+    text-align: left; }
+  .rotating-quotes blockquote p {
+    padding-bottom: 10px; }
+  .rotating-quotes .author {
+    font-size: 16px;
+    font-weight: 300;
+    color: #5E5E5E; }
+
+.page-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #282828; }
+  .page-bottom p {
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */
