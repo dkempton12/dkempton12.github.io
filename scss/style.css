@@ -46,6 +46,7 @@ br {
   padding-bottom: 10px; }
 
 #header {
+  width: 100%;
   background: linear-gradient(50deg, navy, blue);
   padding: 0 10px; }
   #header .header-text-area {
@@ -87,7 +88,7 @@ br {
   .about-me .about-picture {
     margin-top: 2em; }
     .about-me .about-picture .pic {
-      max-width: 400px;
+      max-width: 320px;
       border-radius: 3px; }
 
 .rotating-quotes {
@@ -96,15 +97,17 @@ br {
     margin: 0 auto;
     max-width: 250px;
     font-size: 18px;
-    text-align: left; }
+    line-height: 22px; }
   .rotating-quotes blockquote p {
     padding-bottom: 10px; }
   .rotating-quotes .author {
     font-size: 16px;
     font-weight: 300;
+    text-align: center;
     color: #5E5E5E; }
 
 .page-bottom {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,6 +119,9 @@ br {
 @media only screen and (min-width: 768px) {
   #header .web-links .btn {
     padding: 10px 15px;
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .about-me .about-picture .pic {
+    max-width: 450px; } }
 
 /*# sourceMappingURL=style.css.map */

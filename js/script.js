@@ -1,5 +1,5 @@
 $(document).ready(function() {
   $('.quote').quovolver({
-  	autoPlaySpeed: 3000
+  	autoPlaySpeed: 4000
   });
 });
