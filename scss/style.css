@@ -14,10 +14,6 @@ body {
 a {
   text-decoration: none; }
 
-br {
-  display: block;
-  line-height: 35px; }
-
 .main-heading {
   font-size: 3.5em;
   font-family: 'Bree Serif', serif;
